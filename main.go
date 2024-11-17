@@ -154,6 +154,6 @@ func main() {
 	indentedMarshal, err := json.MarshalIndent(postmanCollection, "", "    ")
 	checkError(err)
 
-	err = WriteToFile(indentedMarshal, "postmanSchema.json")
+	err = WriteToFile(indentedMarshal, "PostmanSchema.json")
 	checkError(err)
 }

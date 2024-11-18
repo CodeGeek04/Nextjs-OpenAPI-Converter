@@ -8,8 +8,7 @@ import (
 	"github.com/CodeGeek04/Nextjs-OpenAPI-Converter/utils"
 )
 
-func main() {
-	item := handler.HandleFolder("C:/Users/Shivam Mittal/Desktop/IgniteTech/ignitetech-eloquens-ai/web/app/api", "C:/Users/Shivam Mittal/Desktop/IgniteTech/ignitetech-eloquens-ai/web/app/")
+func generatePostmanCollection(item types.Item) types.PostmanCollection {
 	postmanCollection := types.PostmanCollection{
 		Info: types.PostmanInfo{
 			Name:   "Nextjs to API Collection",
@@ -17,10 +16,19 @@ func main() {
 		},
 		Item: []types.Item{item},
 	}
+	return postmanCollection
+}
 
+func indentAndWriteToFile(postmanCollection types.PostmanCollection, fileName string) {
 	indentedMarshal, err := json.MarshalIndent(postmanCollection, "", "    ")
 	utils.CheckError(err)
 
-	err = utils.WriteToFile(indentedMarshal, "PostmanSchema.json")
+	err = utils.WriteToFile(indentedMarshal, fileName)
 	utils.CheckError(err)
+}
+
+func main() {
+	item := handler.HandleFolder("NextJS API Path", "NextJS Root Path")
+	postmanCollection := generatePostmanCollection(item)
+	indentAndWriteToFile(postmanCollection, "postman_collection.json")
 }

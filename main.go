@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	item := handler.HandleFolder("Path to nextjs project /api", "Path to nextjs project")
+	item := handler.HandleFolder("C:/Users/Shivam Mittal/Desktop/IgniteTech/ignitetech-eloquens-ai/web/app/api", "C:/Users/Shivam Mittal/Desktop/IgniteTech/ignitetech-eloquens-ai/web/app/")
 	postmanCollection := types.PostmanCollection{
 		Info: types.PostmanInfo{
 			Name:   "Nextjs to API Collection",

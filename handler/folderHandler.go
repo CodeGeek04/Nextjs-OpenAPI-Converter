@@ -29,9 +29,10 @@ func HandleFolder(path string, basePath string) types.Item {
 	utils.CheckError(err)
 
 	path = strings.Replace(path, "\\", "/", -1)
-	relativePath := strings.Replace(path, basePath, "", 1)
+	// relativePath := strings.Replace(path, basePath, "", 1)
+	folderName := strings.Split(path, "/")[len(strings.Split(path, "/"))-1]
 
-	folderItem := generateFolderItem(relativePath, []types.Item{})
+	folderItem := generateFolderItem(folderName, []types.Item{})
 
 	for _, directoryItem := range directoryContents {
 		if directoryItem.IsFolder() {

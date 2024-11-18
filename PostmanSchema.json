@@ -8,10 +8,10 @@
             "name": "api",
             "item": [
                 {
-                    "name": "api/postman"
+                    "name": "postman"
                 },
                 {
-                    "name": "api/send-to-zapier",
+                    "name": "send-to-zapier",
                     "item": [
                         {
                             "name": "route.ts",
@@ -42,16 +42,16 @@
                     ]
                 },
                 {
-                    "name": "api/v1",
+                    "name": "v1",
                     "item": [
                         {
-                            "name": "api/v1/accounts",
+                            "name": "accounts",
                             "item": [
                                 {
-                                    "name": "api/v1/accounts/[account_id]",
+                                    "name": "[account_id]",
                                     "item": [
                                         {
-                                            "name": "api/v1/accounts/[account_id]/current-usage",
+                                            "name": "current-usage",
                                             "item": [
                                                 {
                                                     "name": "route.ts",
@@ -85,10 +85,10 @@
                                             ]
                                         },
                                         {
-                                            "name": "api/v1/accounts/[account_id]/plans",
+                                            "name": "plans",
                                             "item": [
                                                 {
-                                                    "name": "api/v1/accounts/[account_id]/plans/limits",
+                                                    "name": "limits",
                                                     "item": [
                                                         {
                                                             "name": "route.ts",
@@ -209,7 +209,7 @@
                                             }
                                         },
                                         {
-                                            "name": "api/v1/accounts/[account_id]/spaces",
+                                            "name": "spaces",
                                             "item": [
                                                 {
                                                     "name": "route.ts",
@@ -303,10 +303,10 @@
                             ]
                         },
                         {
-                            "name": "api/v1/admin",
+                            "name": "admin",
                             "item": [
                                 {
-                                    "name": "api/v1/admin/access",
+                                    "name": "access",
                                     "item": [
                                         {
                                             "name": "route.ts",
@@ -339,7 +339,7 @@
                                     ]
                                 },
                                 {
-                                    "name": "api/v1/admin/accounts",
+                                    "name": "accounts",
                                     "item": [
                                         {
                                             "name": "route.ts",
@@ -428,7 +428,7 @@
                                     ]
                                 },
                                 {
-                                    "name": "api/v1/admin/blacklist",
+                                    "name": "blacklist",
                                     "item": [
                                         {
                                             "name": "route.ts",
@@ -545,7 +545,7 @@
                                     ]
                                 },
                                 {
-                                    "name": "api/v1/admin/campaign",
+                                    "name": "campaign",
                                     "item": [
                                         {
                                             "name": "route.ts",
@@ -578,13 +578,13 @@
                                     ]
                                 },
                                 {
-                                    "name": "api/v1/admin/contents",
+                                    "name": "contents",
                                     "item": [
                                         {
-                                            "name": "api/v1/admin/contents/[content_id]",
+                                            "name": "[content_id]",
                                             "item": [
                                                 {
-                                                    "name": "api/v1/admin/contents/[content_id]/generate",
+                                                    "name": "generate",
                                                     "item": [
                                                         {
                                                             "name": "route.ts",
@@ -619,7 +619,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "name": "api/v1/admin/contents/[content_id]/get-generate-data",
+                                                    "name": "get-generate-data",
                                                     "item": [
                                                         {
                                                             "name": "route.ts",
@@ -658,7 +658,7 @@
                                     ]
                                 },
                                 {
-                                    "name": "api/v1/admin/current-usage",
+                                    "name": "current-usage",
                                     "item": [
                                         {
                                             "name": "route.ts",
@@ -691,10 +691,10 @@
                                     ]
                                 },
                                 {
-                                    "name": "api/v1/admin/email-event",
+                                    "name": "email-event",
                                     "item": [
                                         {
-                                            "name": "api/v1/admin/email-event/[event_id]",
+                                            "name": "[event_id]",
                                             "item": [
                                                 {
                                                     "name": "route.ts",
@@ -815,10 +815,10 @@
                                     ]
                                 },
                                 {
-                                    "name": "api/v1/admin/email-persona",
+                                    "name": "email-persona",
                                     "item": [
                                         {
-                                            "name": "api/v1/admin/email-persona/[persona_id]",
+                                            "name": "[persona_id]",
                                             "item": [
                                                 {
                                                     "name": "route.ts",
@@ -968,10 +968,10 @@
                                     ]
                                 },
                                 {
-                                    "name": "api/v1/admin/plans",
+                                    "name": "plans",
                                     "item": [
                                         {
-                                            "name": "api/v1/admin/plans/add-ons",
+                                            "name": "add-ons",
                                             "item": [
                                                 {
                                                     "name": "route.ts",
@@ -1091,7 +1091,7 @@
                                     ]
                                 },
                                 {
-                                    "name": "api/v1/admin/prompt",
+                                    "name": "prompt",
                                     "item": [
                                         {
                                             "name": "route.ts",
@@ -1236,10 +1236,10 @@
                                     ]
                                 },
                                 {
-                                    "name": "api/v1/admin/users",
+                                    "name": "users",
                                     "item": [
                                         {
-                                            "name": "api/v1/admin/users/[user_id]",
+                                            "name": "[user_id]",
                                             "item": [
                                                 {
                                                     "name": "route.ts",
@@ -1303,7 +1303,7 @@
                                     ]
                                 },
                                 {
-                                    "name": "api/v1/admin/whitelist",
+                                    "name": "whitelist",
                                     "item": [
                                         {
                                             "name": "route.ts",
@@ -1422,7 +1422,7 @@
                             ]
                         },
                         {
-                            "name": "api/v1/email_source",
+                            "name": "email_source",
                             "item": [
                                 {
                                     "name": "route.ts",
@@ -1508,13 +1508,13 @@
                             ]
                         },
                         {
-                            "name": "api/v1/emailauth",
+                            "name": "emailauth",
                             "item": [
                                 {
-                                    "name": "api/v1/emailauth/callback",
+                                    "name": "callback",
                                     "item": [
                                         {
-                                            "name": "api/v1/emailauth/callback/google",
+                                            "name": "google",
                                             "item": [
                                                 {
                                                     "name": "route.ts",
@@ -1577,7 +1577,7 @@
                                             ]
                                         },
                                         {
-                                            "name": "api/v1/emailauth/callback/outlook",
+                                            "name": "outlook",
                                             "item": [
                                                 {
                                                     "name": "route.ts",
@@ -1644,7 +1644,7 @@
                             ]
                         },
                         {
-                            "name": "api/v1/feedbacks",
+                            "name": "feedbacks",
                             "item": [
                                 {
                                     "name": "route.ts",
@@ -1730,13 +1730,13 @@
                             ]
                         },
                         {
-                            "name": "api/v1/invite",
+                            "name": "invite",
                             "item": [
                                 {
-                                    "name": "api/v1/invite/[token]",
+                                    "name": "[token]",
                                     "item": [
                                         {
-                                            "name": "api/v1/invite/[token]/accept",
+                                            "name": "accept",
                                             "item": [
                                                 {
                                                     "name": "route.ts",
@@ -1770,7 +1770,7 @@
                                             ]
                                         },
                                         {
-                                            "name": "api/v1/invite/[token]/decline",
+                                            "name": "decline",
                                             "item": [
                                                 {
                                                     "name": "route.ts",
@@ -1804,7 +1804,7 @@
                                             ]
                                         },
                                         {
-                                            "name": "api/v1/invite/[token]/validate",
+                                            "name": "validate",
                                             "item": [
                                                 {
                                                     "name": "route.ts",
@@ -1842,13 +1842,13 @@
                             ]
                         },
                         {
-                            "name": "api/v1/knowledge",
+                            "name": "knowledge",
                             "item": [
                                 {
-                                    "name": "api/v1/knowledge/file",
+                                    "name": "file",
                                     "item": [
                                         {
-                                            "name": "api/v1/knowledge/file/download",
+                                            "name": "download",
                                             "item": [
                                                 {
                                                     "name": "route.ts",
@@ -1886,7 +1886,7 @@
                             ]
                         },
                         {
-                            "name": "api/v1/localize",
+                            "name": "localize",
                             "item": [
                                 {
                                     "name": "route.ts",
@@ -1945,7 +1945,7 @@
                             ]
                         },
                         {
-                            "name": "api/v1/oauth-url",
+                            "name": "oauth-url",
                             "item": [
                                 {
                                     "name": "route.ts",
@@ -1977,7 +1977,7 @@
                             ]
                         },
                         {
-                            "name": "api/v1/send-email",
+                            "name": "send-email",
                             "item": [
                                 {
                                     "name": "route.ts",
@@ -2009,7 +2009,7 @@
                             ]
                         },
                         {
-                            "name": "api/v1/settings",
+                            "name": "settings",
                             "item": [
                                 {
                                     "name": "route.ts",
@@ -2095,37 +2095,37 @@
                             ]
                         },
                         {
-                            "name": "api/v1/spaces",
+                            "name": "spaces",
                             "item": [
                                 {
-                                    "name": "api/v1/spaces/[space_id]",
+                                    "name": "[space_id]",
                                     "item": [
                                         {
-                                            "name": "api/v1/spaces/[space_id]/campaigns",
+                                            "name": "campaigns",
                                             "item": [
                                                 {
-                                                    "name": "api/v1/spaces/[space_id]/campaigns/[campaign_id]",
+                                                    "name": "[campaign_id]",
                                                     "item": [
                                                         {
-                                                            "name": "api/v1/spaces/[space_id]/campaigns/[campaign_id]/conversations",
+                                                            "name": "conversations",
                                                             "item": [
                                                                 {
-                                                                    "name": "api/v1/spaces/[space_id]/campaigns/[campaign_id]/conversations/[conversation_id]",
+                                                                    "name": "[conversation_id]",
                                                                     "item": [
                                                                         {
-                                                                            "name": "api/v1/spaces/[space_id]/campaigns/[campaign_id]/conversations/[conversation_id]/messages",
+                                                                            "name": "messages",
                                                                             "item": [
                                                                                 {
-                                                                                    "name": "api/v1/spaces/[space_id]/campaigns/[campaign_id]/conversations/[conversation_id]/messages/[message_id]",
+                                                                                    "name": "[message_id]",
                                                                                     "item": [
                                                                                         {
-                                                                                            "name": "api/v1/spaces/[space_id]/campaigns/[campaign_id]/conversations/[conversation_id]/messages/[message_id]/interactions",
+                                                                                            "name": "interactions",
                                                                                             "item": [
                                                                                                 {
-                                                                                                    "name": "api/v1/spaces/[space_id]/campaigns/[campaign_id]/conversations/[conversation_id]/messages/[message_id]/interactions/[interaction_id]",
+                                                                                                    "name": "[interaction_id]",
                                                                                                     "item": [
                                                                                                         {
-                                                                                                            "name": "api/v1/spaces/[space_id]/campaigns/[campaign_id]/conversations/[conversation_id]/messages/[message_id]/interactions/[interaction_id]/contents",
+                                                                                                            "name": "contents",
                                                                                                             "item": [
                                                                                                                 {
                                                                                                                     "name": "route.ts",
@@ -2788,7 +2788,7 @@
                                                             ]
                                                         },
                                                         {
-                                                            "name": "api/v1/spaces/[space_id]/campaigns/[campaign_id]/metric-summaries",
+                                                            "name": "metric-summaries",
                                                             "item": [
                                                                 {
                                                                     "name": "route.ts",
@@ -2917,10 +2917,10 @@
                                                             ]
                                                         },
                                                         {
-                                                            "name": "api/v1/spaces/[space_id]/campaigns/[campaign_id]/metrics",
+                                                            "name": "metrics",
                                                             "item": [
                                                                 {
-                                                                    "name": "api/v1/spaces/[space_id]/campaigns/[campaign_id]/metrics/count",
+                                                                    "name": "count",
                                                                     "item": [
                                                                         {
                                                                             "name": "route.ts",
@@ -2955,7 +2955,7 @@
                                                                             }
                                                                         },
                                                                         {
-                                                                            "name": "api/v1/spaces/[space_id]/campaigns/[campaign_id]/metrics/count/transpose",
+                                                                            "name": "transpose",
                                                                             "item": [
                                                                                 {
                                                                                     "name": "route.ts",
@@ -3151,7 +3151,7 @@
                                                             }
                                                         },
                                                         {
-                                                            "name": "api/v1/spaces/[space_id]/campaigns/[campaign_id]/view-by-metrics",
+                                                            "name": "view-by-metrics",
                                                             "item": [
                                                                 {
                                                                     "name": "route.ts",
@@ -3187,7 +3187,7 @@
                                                             ]
                                                         },
                                                         {
-                                                            "name": "api/v1/spaces/[space_id]/campaigns/[campaign_id]/workflows",
+                                                            "name": "workflows",
                                                             "item": [
                                                                 {
                                                                     "name": "route.ts",
@@ -3349,7 +3349,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "name": "api/v1/spaces/[space_id]/campaigns/groups",
+                                                    "name": "groups",
                                                     "item": [
                                                         {
                                                             "name": "route.ts",
@@ -3502,10 +3502,10 @@
                                             ]
                                         },
                                         {
-                                            "name": "api/v1/spaces/[space_id]/dashboard",
+                                            "name": "dashboard",
                                             "item": [
                                                 {
-                                                    "name": "api/v1/spaces/[space_id]/dashboard/campaigns",
+                                                    "name": "campaigns",
                                                     "item": [
                                                         {
                                                             "name": "route.ts",
@@ -3540,7 +3540,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "name": "api/v1/spaces/[space_id]/dashboard/emails",
+                                                    "name": "emails",
                                                     "item": [
                                                         {
                                                             "name": "route.ts",
@@ -3575,7 +3575,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "name": "api/v1/spaces/[space_id]/dashboard/interactions",
+                                                    "name": "interactions",
                                                     "item": [
                                                         {
                                                             "name": "route.ts",
@@ -3610,7 +3610,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "name": "api/v1/spaces/[space_id]/dashboard/metrics",
+                                                    "name": "metrics",
                                                     "item": [
                                                         {
                                                             "name": "route.ts",
@@ -3647,7 +3647,7 @@
                                             ]
                                         },
                                         {
-                                            "name": "api/v1/spaces/[space_id]/email-event",
+                                            "name": "email-event",
                                             "item": [
                                                 {
                                                     "name": "route.ts",
@@ -3739,7 +3739,7 @@
                                             ]
                                         },
                                         {
-                                            "name": "api/v1/spaces/[space_id]/email-persona",
+                                            "name": "email-persona",
                                             "item": [
                                                 {
                                                     "name": "route.ts",
@@ -3831,16 +3831,16 @@
                                             ]
                                         },
                                         {
-                                            "name": "api/v1/spaces/[space_id]/knowledge",
+                                            "name": "knowledge",
                                             "item": [
                                                 {
-                                                    "name": "api/v1/spaces/[space_id]/knowledge/folders",
+                                                    "name": "folders",
                                                     "item": [
                                                         {
-                                                            "name": "api/v1/spaces/[space_id]/knowledge/folders/[folder_id]",
+                                                            "name": "[folder_id]",
                                                             "item": [
                                                                 {
-                                                                    "name": "api/v1/spaces/[space_id]/knowledge/folders/[folder_id]/files",
+                                                                    "name": "files",
                                                                     "item": [
                                                                         {
                                                                             "name": "route.ts",
@@ -4067,10 +4067,10 @@
                                             ]
                                         },
                                         {
-                                            "name": "api/v1/spaces/[space_id]/members",
+                                            "name": "members",
                                             "item": [
                                                 {
-                                                    "name": "api/v1/spaces/[space_id]/members/[user_id]",
+                                                    "name": "[user_id]",
                                                     "item": [
                                                         {
                                                             "name": "route.ts",
@@ -4105,13 +4105,13 @@
                                                     ]
                                                 },
                                                 {
-                                                    "name": "api/v1/spaces/[space_id]/members/invites",
+                                                    "name": "invites",
                                                     "item": [
                                                         {
-                                                            "name": "api/v1/spaces/[space_id]/members/invites/[invite_id]",
+                                                            "name": "[invite_id]",
                                                             "item": [
                                                                 {
-                                                                    "name": "api/v1/spaces/[space_id]/members/invites/[invite_id]/resend",
+                                                                    "name": "resend",
                                                                     "item": [
                                                                         {
                                                                             "name": "route.ts",
@@ -4274,10 +4274,10 @@
                                             ]
                                         },
                                         {
-                                            "name": "api/v1/spaces/[space_id]/metrics",
+                                            "name": "metrics",
                                             "item": [
                                                 {
-                                                    "name": "api/v1/spaces/[space_id]/metrics/count",
+                                                    "name": "count",
                                                     "item": [
                                                         {
                                                             "name": "route.ts",
@@ -4310,7 +4310,7 @@
                                                             }
                                                         },
                                                         {
-                                                            "name": "api/v1/spaces/[space_id]/metrics/count/transpose",
+                                                            "name": "transpose",
                                                             "item": [
                                                                 {
                                                                     "name": "route.ts",
@@ -4406,13 +4406,13 @@
                                             }
                                         },
                                         {
-                                            "name": "api/v1/spaces/[space_id]/users",
+                                            "name": "users",
                                             "item": [
                                                 {
-                                                    "name": "api/v1/spaces/[space_id]/users/[user_id]",
+                                                    "name": "[user_id]",
                                                     "item": [
                                                         {
-                                                            "name": "api/v1/spaces/[space_id]/users/[user_id]/last-used",
+                                                            "name": "last-used",
                                                             "item": [
                                                                 {
                                                                     "name": "route.ts",
@@ -4456,13 +4456,13 @@
                             ]
                         },
                         {
-                            "name": "api/v1/users",
+                            "name": "users",
                             "item": [
                                 {
-                                    "name": "api/v1/users/[user_id]",
+                                    "name": "[user_id]",
                                     "item": [
                                         {
-                                            "name": "api/v1/users/[user_id]/complete",
+                                            "name": "complete",
                                             "item": [
                                                 {
                                                     "name": "route.ts",
@@ -4496,7 +4496,7 @@
                                             ]
                                         },
                                         {
-                                            "name": "api/v1/users/[user_id]/spaces",
+                                            "name": "spaces",
                                             "item": [
                                                 {
                                                     "name": "route.ts",
@@ -4532,13 +4532,13 @@
                                     ]
                                 },
                                 {
-                                    "name": "api/v1/users/oauth",
+                                    "name": "oauth",
                                     "item": [
                                         {
-                                            "name": "api/v1/users/oauth/callback",
+                                            "name": "callback",
                                             "item": [
                                                 {
-                                                    "name": "api/v1/users/oauth/callback/google",
+                                                    "name": "google",
                                                     "item": [
                                                         {
                                                             "name": "route.ts",
@@ -4603,7 +4603,7 @@
                                             }
                                         },
                                         {
-                                            "name": "api/v1/users/oauth/url",
+                                            "name": "url",
                                             "item": [
                                                 {
                                                     "name": "route.ts",
@@ -4639,10 +4639,10 @@
                                     ]
                                 },
                                 {
-                                    "name": "api/v1/users/recovery",
+                                    "name": "recovery",
                                     "item": [
                                         {
-                                            "name": "api/v1/users/recovery/send-email",
+                                            "name": "send-email",
                                             "item": [
                                                 {
                                                     "name": "route.ts",
@@ -4676,7 +4676,7 @@
                                             ]
                                         },
                                         {
-                                            "name": "api/v1/users/recovery/update-password",
+                                            "name": "update-password",
                                             "item": [
                                                 {
                                                     "name": "route.ts",
@@ -4712,10 +4712,10 @@
                                     ]
                                 },
                                 {
-                                    "name": "api/v1/users/session",
+                                    "name": "session",
                                     "item": [
                                         {
-                                            "name": "api/v1/users/session/login",
+                                            "name": "login",
                                             "item": [
                                                 {
                                                     "name": "route.ts",
@@ -4749,7 +4749,7 @@
                                             ]
                                         },
                                         {
-                                            "name": "api/v1/users/session/register",
+                                            "name": "register",
                                             "item": [
                                                 {
                                                     "name": "route.ts",
@@ -4785,7 +4785,7 @@
                                     ]
                                 },
                                 {
-                                    "name": "api/v1/users/verify-email",
+                                    "name": "verify-email",
                                     "item": [
                                         {
                                             "name": "route.ts",

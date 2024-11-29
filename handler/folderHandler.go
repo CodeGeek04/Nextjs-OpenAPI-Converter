@@ -46,7 +46,7 @@ func HandleFolder(path string, basePath string) types.Item {
 			}
 
 			for _, request := range requests {
-				requestItem := generateRequestItem(request, directoryItem.Name)
+				requestItem := generateRequestItem(request, request.Method+" "+folderName)
 				folderItem.Item = append(folderItem.Item, requestItem)
 			}
 		}

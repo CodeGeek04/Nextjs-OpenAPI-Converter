@@ -50,7 +50,7 @@ type URL struct {
 	Raw      string   `json:"raw"`
 	Protocol string   `json:"protocol"`
 	Host     []string `json:"host"`
-	Port     string   `json:"port"`
+	Port     string   `json:"port,omitempty"`
 	Path     []string `json:"path"`
 	Query    []Query  `json:"query"`
 }
